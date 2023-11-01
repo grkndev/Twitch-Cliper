@@ -1,6 +1,6 @@
 import axios from "axios";
-const token = "fzcuigdhwyqmd3rsvb2onph11h334q"
-const client_id = "v6ohqfkvqli7puf7zfrib670q7fxay", client_secret = ""
+const token = "YOUR_TWITCH_TOKEN"
+const client_id = "YOUR_TWITCH_CLIENT_ID", client_secret = "YOUR_TWITCH_CLIENT_SECRET"
 
 getClip("https://clips.twitch.tv/SuaveDependableLettuceFreakinStinkin-RTs_65MzhbRLFa-6")
 async function getClip(clipURL) {
